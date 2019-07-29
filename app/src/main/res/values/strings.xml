@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">OTP</string>
+    <string name="masuk">Masuk</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="masukkan_akun_anda">Masukkan akun anda</string>
+    <string name="register">Register</string>
+    <string name="masukkan_data_anda">Masukkan Data Anda</string>
+    <string name="login">login</string>
+    <string name="daftar">Daftar</string>
+    <string name="Hak_Akses">Hak Akses</string>
+    <string name="BERHASIL">berhasil</string>
+    <string name="logOut">LOG OUT</string>
+    <string-array name="Nama_akses">
+        <item>Kepala Gudang</item>
+        <item>Kasir</item>
+        <item>Admin</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Data_Pribadi_Admin">Masukkan Data Pribadi Admin</string>
+    <string name="Nama_Lengkap">Nama Lengkap Anda</string>
+    <string name="NO_KTP">No. KTP</string>
+    <string name="Tempat_Ttl">Tempat Tgl.</string>
+    <string name="Tanggal_Lahir">Tanggal Lahir</string>
+    <string name="Klik_Tanggal">Klik Tanggal</string>
+    <string name="Jenis_kel">Jenis Kelamin</string>
+    <string name="Warganegara">Warganegara</string>
+    <string name="simpan">simpan</string>
+    <string name="kembali">kembali</string>
+    <string name="Alamat">Alamat</string>
+    <string name="Data_Kepegawaian">Data Kepegawaian</string>
+    <string name="Status_kepegawaian">Status Kepegawaian</string>
+    <string name="Sk_Pengangkatan">SK Pengangkatan</string>
+    <string name="Nomor_telp">Nomor Telepon</string>
+    <string name="Email">Email</string>
+    <string name="Identitas_Lembaga">Identitas Lembaga</string>
+    <string name="nama_lembaga">Nama Lembaga</string>
+    <string name="npsn">NPSN</string>
+    <string name="bentuk_pendidikan">Bentuk Pendidikan</string>
+    <string name="status_kepemilikan">Status Kepemilikan</string>
+    <string name="sk_izin">SK. Izin Operasional</string>
+    <string name="tanggal_izin">Tanggal Izin Operasional</string>
+    <string name="lokasi_lembaga">Lokasi Lembaga</string>
+    <string name="nama_dusun">Nama Dusun</string>
+    <string name="kode_pos">Kode Pos</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="kabupaten">Kabupaten</string>
+    <string name="provinsi">Provinsi</string>
+</resources>
+
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/light_green_50"
+    tools:context="com.arif.otp.Activity.RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pilih Hak Akses"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hakAkses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutInput"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/btnGuru"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:src="@drawable/ic_teacher"
+                app:cb_color="#99CC00"
+                app:cb_pressedRingWidth="7dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Guru Sekolah"
+                android:textColor="#99CC00"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/btnAdmin"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:src="@drawable/ic_school"
+                app:cb_color="#8debf1"
+                app:cb_pressedRingWidth="7dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Admin Sekolah"
+                android:textColor="#8debf1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/btnKepsek"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:src="@drawable/ic_kepsek"
+                app:cb_color="@color/orange_A700"
+                app:cb_pressedRingWidth="7dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kepala Sekolah"
+                android:textColor="@color/orange_A700"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<ViewFlipper-->
+        <!--android:id="@+id/v_flip"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--/>-->
+
+    <FrameLayout
+        android:id="@+id/HomeRegister"
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/hakAkses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+    </FrameLayout>
+</RelativeLayout>

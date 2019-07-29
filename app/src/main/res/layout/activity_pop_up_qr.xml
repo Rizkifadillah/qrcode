@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="450dp"
+    android:padding="5dp"
+    android:background="@color/blue_100"
+    android:layout_gravity="center"
+    tools:context="com.arif.otp.Guru.PopUpActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUCCESS"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_checked"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absen Pada Pukul :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvScanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="current time"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="OK"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_welcom"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

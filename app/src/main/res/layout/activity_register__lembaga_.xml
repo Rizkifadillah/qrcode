@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HalfTransparent"
+    tools:context="com.arif.otp.Activity.LoginActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_school"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutInput"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="@string/Identitas_Lembaga"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/nama_lembaga" />
+
+        <EditText
+            android:id="@+id/edtnmLembaga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:hint="@string/nama_lembaga"
+            android:inputType="text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/npsn" />
+
+        <EditText
+            android:id="@+id/edtNPSN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/npsn"
+            android:inputType="text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/bentuk_pendidikan" />
+
+        <EditText
+            android:id="@+id/edtBentukPendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bentuk_pendidikan"
+            android:inputType="text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/status_kepemilikan" />
+
+        <EditText
+            android:id="@+id/edtStatusPemilk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/status_kepemilikan"
+            android:inputType="text"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/sk_izin" />
+
+        <EditText
+            android:id="@+id/edtSKizin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sk_izin"
+            android:inputType="text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/tanggal_izin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtTglOperasional"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/tanggal_izin"
+                android:inputType="text"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/ic_calendar" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_welcom"
+            android:text="@string/simpan"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/TextBtn" />
+
+        <TextView
+            android:id="@+id/tvKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="@string/kembali" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

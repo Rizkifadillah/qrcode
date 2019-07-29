@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="400dp"
+    android:layout_below="@+id/hakAkses"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_popup">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/guruu"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GURU"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
+
+    <Button
+        android:id="@+id/RegGuru"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_welcom"/>
+</LinearLayout>
